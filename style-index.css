@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: black;
+    font-family: "Raleway", sans-serif;
+    margin: 0px;
+}
+
+hr {
+    margin-top: 70px;
+    border-color: rgb(58, 58, 58);
+}
+
+header {
+    scroll-behavior: smooth;
+    display: flex;
+    background: linear-gradient(90deg, #151819, #101111);
+    padding: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+}
+
+.logo {
+    top: 35px;
+    left: 35px;
+    position: absolute;
+}
+
+.login {
+    box-shadow: 4px 4px 4px rgb(0, 0, 0);
+    border-color: rgb(66, 66, 66);
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    font-family: "raleway", sans-serif;
+    font-weight: 600;
+    position: absolute;
+    left: 95vw;
+    top: 2.7vw;
+    cursor: pointer;
+    color: rgb(228, 228, 228);
+    background-color: #f3f3f300;
+    transition: ease 1s color;
+    transition: transform 0.3s ease;
+
+}
+
+.login:hover {
+    background-color: #752323;
+    transform: scale(1.1);
+
+}
+
+nav ul {
+    text-align: center;
+    background: linear-gradient(90deg, #101111, #0a0a0a);
+    padding: 10px;
+    position: center;
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+nav ul li {
+    font-family: "raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 36px;
+    display: inline;
+
+}
+
+nav ul li a {
+    color: #f3f3f3;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #eb155b;
+}
+
+
+.video1 {
+    width: 1000px;
+    box-shadow: 0px 0px 25px #eb155c;
+    border-radius: 20px;
+    margin-top: 70px;
+    margin-left: 450px;
+}
+
+.the-news {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.titulo h1 {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #eb155b;
+    font-family: "raleway", sans-serif;
+    color: #ffffff00;
+    font-size: 50px;
+    margin: 80px;
+}
+
+.noticias h1 {
+    font-family: "raleway", sans-serif;
+    font-weight: 800;
+    color: #f3f3f3;
+    margin-left: 40px;
+    font-size: 35px;
+}
+
+.noticias h2 {
+    font-family: "raleway", sans-serif;
+    font-weight: 700;
+    color: #f3f3f3;
+    margin-left: 60px;
+    font-size: 25px;
+}
+
+.noticias h3 {
+    font-family: "raleway", sans-serif;
+    font-weight: 400;
+    color: #f3f3f3;
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+.noticias h4 {
+    font-family: "raleway", sans-serif;
+    font-weight: 400;
+    color: #757575;
+    margin-left: 40px;
+    font-size: 15px;
+}
+
+.like-btn {
+    background-color: #00000000;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    margin-top: -20px;
+    margin-left: 50px;
+}
+
+.likes-contagem {
+    color: #f3f3f3;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+
+
+footer {
+    font-family: "raleway", sans-serif;
+    background: #000;
+    color: #f3f3f3;
+    padding: 50px 0;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    margin: 0px;
+}
+
+footer img {
+    width: 300px;
+    align-items: center;
+    transform: translateY(5vh);
+}
+
+footer h2 {
+    font-family: "raleway", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 15px;
+    transform: translateY(4vh);
+    text-align: center;
+    margin-top: -20px;
+}
+
+.icones {
+    transform: translateX(-2vh);
+}
+
+.icones li {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.icones img {
+    width: 40px;
+    height: 40px;
+    transition: 1s;
+}
+
+.icones img:hover {
+    transform: scale(1.5);
+}
