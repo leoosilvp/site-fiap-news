@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener("click", function (e) {
         e.preventDefault();
-        gsap.to(window, { duration: 1.5, scrollTo: this.getAttribute("href") });
+        gsap.to(window, { duration: 1, scrollTo: this.getAttribute("href") });
     });
 });
 

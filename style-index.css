@@ -4,9 +4,9 @@ html {
     scroll-behavior: smooth;
 }
 
-
 body {
-    background: linear-gradient(90deg, #171a1b, #050505);
+    /* background-image: url(img/fundo-tec.avif); */
+    background: linear-gradient(90deg, #171a1b, #050505); 
     font-family: "Raleway", sans-serif;
     margin: 0px;
 }
