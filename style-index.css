@@ -5,8 +5,10 @@ html {
 }
 
 body {
-    /* background-image: url(img/fundo-tec.avif); */
-    background: linear-gradient(90deg, #171a1b, #050505); 
+    /* background-image: url(img/fundo-tec.avif); 
+    background-repeat: repeat-y;
+    background-size: contain; */
+    background: linear-gradient(90deg, #171a1b, #050505);  
     font-family: "Raleway", sans-serif;
     margin: 0px;
 }
